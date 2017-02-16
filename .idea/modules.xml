@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyJsBridge.iml" filepath="$PROJECT_DIR$/MyJsBridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebViewDemo/WebViewDemo.iml" filepath="$PROJECT_DIR$/WebViewDemo/WebViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
