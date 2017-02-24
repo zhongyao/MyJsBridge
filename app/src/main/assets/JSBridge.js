@@ -12,6 +12,7 @@
             var uri=Util.getUri(obj,method,params,port);
             console.log(uri);
             window.prompt(uri, "");
+//            window.alert(uri,"");
         },
         onFinish: function (port, jsonObj){
             var callback = this.callbacks[port];

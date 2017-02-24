@@ -156,31 +156,37 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public boolean onJsConfirm(WebView view, String url, String message, JsResult result) {
+            Logger.d("onJsConfirm--"+"url:"+url+"message:"+message+"result:"+result);
             return super.onJsConfirm(view, url, message, result);
         }
 
         @Override
         public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
+            Logger.d("onJsAlert--"+"url:"+url+"message:"+message+"result:"+result);
             return super.onJsAlert(view, url, message, result);
         }
 
         @Override
         public boolean onJsPrompt(WebView view, String url, String message, String defaultValue, JsPromptResult result) {
+            Logger.d("onJsPrompt--"+"url:"+url+"message:"+message+"result:"+result);
             return super.onJsPrompt(view, url, message, defaultValue, result);
         }
 
         @Override
         public boolean onConsoleMessage(ConsoleMessage consoleMessage) {
+            Logger.d("onConsoleMessage--"+"consoleMessage:"+consoleMessage);
             return super.onConsoleMessage(consoleMessage);
         }
 
         @Override
         public void onShowCustomView(View view, CustomViewCallback callback) {
+            Logger.d("onShowCustomView");
             super.onShowCustomView(view, callback);
         }
 
         @Override
         public void onHideCustomView() {
+            Logger.d("onHideCustomView");
             super.onHideCustomView();
         }
     }
