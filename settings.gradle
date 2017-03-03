@@ -1,1 +1,1 @@
-include ':app', ':WebViewDemo'
+include ':app', ':WebViewDemo', ':myapplication', ':ContentProviderApp'
